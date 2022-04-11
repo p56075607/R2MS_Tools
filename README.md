@@ -14,7 +14,7 @@
 + 再下一層建立「AutoRepeatInversion」資料夾。名稱固定不可改變。
 + 再下一層建立測線名稱，例如:「2022012701_E1」。可以依照需要改變名稱。
 + 再下一層建立「Urf」、「Trn」、「Inversion_ini」資料夾。
-  + 其中「Urf」資料夾內要放置:以測線名稱+「_level1.urf」的urf檔案。一定要與測站名稱資料夾同名。例如:「2022012701_E1_Level1.urf」。並且放置「AutoRepeatInversion.ini」、「AutoRepeatInversionPlot.ini」、「Urf_RandomReduce_Groups.ini」
+  + 其中「Urf」資料夾內要放置:以測線名稱+「_Level1.urf」的urf檔案。一定要與測站名稱資料夾同名。例如:「2022012701_E1_Level1.urf」。並且放置「AutoRepeatInversion.ini」、「AutoRepeatInversionPlot.ini」、「Urf_RandomReduce_Groups.ini」
   + 其中「Trn」資料夾內要放置:任意名稱的*.trn檔案，只能有一個。沒有地形可以不放任何檔案。
   + 其中「Inversion_ini」資料夾下一層建立「00」資料夾，裡面放任意名稱的逆推參數檔案(*.ini)，只能有一個。若有需要同時測試多種逆推參數，必須依序命名資料夾為「01」、「02」...。
 
